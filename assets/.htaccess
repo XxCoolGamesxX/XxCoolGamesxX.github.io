@@ -1,0 +1,5 @@
+# Only Allow the HTML and PHP pages
+AddHandler application/x-httpd-php .html .htm 
+
+# Not allow to spy in the files : P
+IndexIgnore *
